@@ -1,0 +1,35 @@
+.location {
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: 100%;
+    max-width: 40em;
+    padding: 2em 2.5em 2.5em;
+    border-radius: 1em;
+    margin: 0 auto 4em;
+    transition: scale 0.5s ease;
+    box-shadow: 0 0 1px 1px white;
+    &:hover {
+      scale: 0.95;
+    }
+    .location__name {
+      text-align: center;
+      font-weight: 500;
+      color: #04a904;
+      margin-bottom: 0.7em;
+      font-size:xx-large
+    }
+    .location__list {
+      justify-content: space-between;
+      gap: 2em;
+      .location__item {
+        justify-items: center;
+        .location__label {
+          font-size: 1.5em;
+          color: #999;
+        }
+        .location__value {
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
